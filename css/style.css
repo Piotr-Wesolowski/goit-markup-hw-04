@@ -65,6 +65,7 @@ body {
 
 .web-studio-logo {
   text-decoration: none;
+  flex-wrap: nowrap;
 }
 
 .web-studio-logo-web {
@@ -169,6 +170,7 @@ body {
 .mail-top:hover,
 .mail-top:focus {
   color: var(--main-blue);
+  --color3: var(--main-blue);
 }
 
 .phone-top {
@@ -179,11 +181,12 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-silver);
-}
+  }
 
 .phone-top:hover,
 .phone-top:focus {
   color: var(--main-blue);
+  --color3: var(--main-blue);
 }
 
 .second-unit {
@@ -540,15 +543,15 @@ body {
   gap: 30px;
   background: var(--main-white);
   padding: 0;
- }
+}
 
- .portfolio-list-pics img {
+.portfolio-list-pics img {
   display: block;
-  }
+}
 
- .portfolio-list-pics li {
+.portfolio-list-pics li {
   flex-basis: calc ((100% - 60px)/3);
-  }
+}
 
 .portfolio-pics-border {
   padding-top: 20px;
