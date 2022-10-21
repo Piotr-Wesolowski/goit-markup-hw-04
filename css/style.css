@@ -176,7 +176,7 @@ body {
 .mail-top:hover,
 .mail-top:focus {
   color: var(--main-blue);
-  --color3: var(--main-blue);
+  --color4: var(--main-blue);
 }
 
 .phone-top {
@@ -192,7 +192,7 @@ body {
 .phone-top:hover,
 .phone-top:focus {
   color: var(--main-blue);
-  --color3: var(--main-blue);
+  --color4: var(--main-blue);
 }
 
 .second-unit {
@@ -363,9 +363,8 @@ body {
 .twitter:hover,
 .facebook:hover,
 .linkedin:hover {
-  --color4: var(--main-blue);
-  --color3: var(--second-black);
-  --color5: var(--main-silver);
+  --color5: var(--main-blue);
+  --color3: var(--main-white);
   /* display:flex;
   align-items: center;
   justify-content: center;
