@@ -363,7 +363,11 @@ body {
 .instagram:hover,
 .twitter:hover,
 .facebook:hover,
-.linkedin:hover {
+.linkedin:hover,
+.instagram:focus,
+.twitter:focus,
+.facebook:focus,
+linkedin:focus {
   --color5: var(--main-blue);
   --color3: var(--main-white);
   cursor: pointer;
@@ -426,7 +430,8 @@ body {
   cursor: pointer;
  } */
 
- .customer-hover:hover {
+ .customer-hover:hover,
+ .customer-hover:focus {
   border: 1px solid var(--main-blue);
   cursor: pointer;
   --color3: var(--main-blue);
@@ -679,7 +684,8 @@ body {
   flex-basis: calc ((100% - 60px)/3);
 }
 
-.portfolio-list-pics li:hover {
+.portfolio-list-pics li:hover,
+.portfolio-list-pic li:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
