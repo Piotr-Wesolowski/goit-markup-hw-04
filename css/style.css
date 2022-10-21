@@ -395,6 +395,18 @@ body {
   color: var(--main-silver);
 }
 
+.our-customers {
+  height: 184px;
+}
+
+.our-customers li {
+  list-style: none;
+  width: 170px,
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
 .web-studio-logo-studio-bottom {
   font-family: "Raleway";
   font-style: normal;
@@ -493,25 +505,25 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: flex;
-  padding-left: 171px;
-  align-items: baseline;
-}
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  
+ }
 
 .social-position-icons-footer {
-    display: flex;
-    padding-left: 70px;
+  display: flex;
+  padding-left: 44px;
   --color5: var(--icon-footer-grey);
   --color3: var(--main-white);
 }
 
-.footer-position {
+.wrapper {
   display: flex;
-  align-items: baseline;
-}
+  }
 
-.test {
-  display: flex;
-  align-items:flex-start;
+  .section-right {
+    padding-left: 32px;
   }
 
 .portfolio-filter {
