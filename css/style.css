@@ -415,21 +415,6 @@ linkedin:focus {
   justify-content: center;
 }
 
-/* .our-customers li:hover {
-  border: 1px solid var(--main-blue);
-  cursor: pointer;
-}
-
-.customer-1:hover,
-.customer-2:hover,
-.customer-3:hover,
-.customer-4:hover,
-.customer-5:hover,
-.customer-6:hover {
-  --color3: var(--main-blue);
-  cursor: pointer;
- } */
-
  .customer-hover:hover,
  .customer-hover:focus {
   border: 1px solid var(--main-blue);
