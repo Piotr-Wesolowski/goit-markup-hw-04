@@ -364,6 +364,15 @@ body {
 .facebook:hover,
 .linkedin:hover {
   --color4: var(--main-blue);
+  --color3: var(--second-black);
+  --color5: var(--main-silver);
+  /* display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px; */
 }
 
 .list-fifth-pic-name {
