@@ -449,13 +449,13 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-white);
-  padding-bottom: 9px;
+  /* padding-bottom: 9px; */
 }
 
 .mail-bottom {
   text-decoration: none;
   font-style: normal;
-  display: flex;
+  /* display: flex; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -471,7 +471,7 @@ body {
 .phone-bottom {
   text-decoration: none;
   font-style: normal;
-  display: flex;
+  /* display: flex; */
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -492,15 +492,27 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
+  padding-left: 171px;
+  align-items: baseline;
 }
 
-.social-position-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.social-position-icons-footer {
+    display: flex;
+    padding-left: 70px;
   --color5: var(--icon-footer-grey);
   --color3: var(--main-white);
 }
+
+.footer-position {
+  display: flex;
+  align-items: baseline;
+}
+
+.test {
+  display: flex;
+  align-items:flex-start;
+  }
 
 .portfolio-filter {
   display: none;
