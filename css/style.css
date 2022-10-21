@@ -8,6 +8,7 @@
   --main-silver: #757575;
   --border-grey: #ececec;
   --second-border-grey: #eeeeee;
+  --icon-footer-grey: rgba(255, 255, 255, 0.1);
 }
 
 *,
@@ -480,6 +481,25 @@ body {
 .phone-bottom:hover,
 .phone-bottom:focus {
   color: var(--main-blue);
+}
+
+.join-us {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: var(--main-white);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social-position-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --color5: var(--icon-footer-grey);
+  --color3: var(--main-white);
 }
 
 .portfolio-filter {
