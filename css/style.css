@@ -541,8 +541,7 @@ linkedin:focus {
 
   .section-right {
     padding-left: 32px;
-    justify-content: between;
-  }
+    }
 
   .social-footer-list {
     width: 206px;
@@ -665,9 +664,9 @@ linkedin:focus {
   display: block;
 }
 
-.portfolio-list-pics li {
-  flex-basis: calc ((100% - 60px)/3);
-}
+/* .portfolio-list-pics li {
+  flex-basis:calc ((100% - 60px)/3);
+} */
 
 .portfolio-list-pics li:hover,
 .portfolio-list-pic li:focus {
